@@ -1,0 +1,61 @@
+:root{
+    --main-color: rgb(68, 3, 188);
+    --secondary-color: rgb(121, 22, 160);
+    --third-color: white;
+    --fourth-color: rgb(140, 0, 255);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: var( --main-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dictionary-container{
+    background-color: var(--third-color);
+    width: 30%;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    margin: 25px;
+    width: 280px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: azure;
+}
+
+.property{
+    font-size: 17px;
+    margin: 10px;
+    color: var(--fourth-color); 
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: var(--third-color);
+    border: solid rgb(236, 232, 232);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    color: black;
+}

@@ -2,18 +2,43 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8"/>
-		<title> My dictionary  </title>
-		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<title> My javascript dictionary  </title>
+		<link rel="stylesheet" type="text/css" href="./index.css">
 		<link rel="shortcut icon" href="favicon"/>
 	</head>
 	<body>
-        <h1> My javascript dictionary </h1>
         <div class="container">
+            <div class="dictionary-container">
+                <h1> My javascript dictionary </h1>
             <div class="search">
-                <input type="text" placeholder="insert word"/>
-                <Button> Search </Button>
+                <input class="input" type="text" placeholder="insert word"/>
+                <Button class="button"> Search </Button>
             </div>
+            <div class="dictionary-app">
+                <div class="card">
+                    <div class="property">
+                        <span class="word"> Word: </span>
+                       
+                    </div>
+                    <div class="property">
+                        <span class="audio"> Audio </span>
+                       
+                    </div>
+                    <div class="property">
+                        <span class="definition"> Definition </span>
+                       
+                    </div>
+                    <div class="property">
+                        <span class="example"> Example </span>
+                       
+                    </div>
 
+                </div>
+            </div>
+            </div>
         </div>
+
+        <script src="index.js"></script>}
+
     </body>
 </html>
